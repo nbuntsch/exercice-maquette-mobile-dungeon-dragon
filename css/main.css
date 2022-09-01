@@ -2,6 +2,11 @@
 // css variables
 // ==================================== */
 
+@import "modules/article.css";
+@import "modules/footer.css";
+@import "modules/header.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
 }
 
