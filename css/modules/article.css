@@ -1,0 +1,40 @@
+main {
+  background-color: var(--color-main);
+}
+
+.article-title {
+  padding: 25px 75px;
+  border-bottom: solid var(--special-color) 1px;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.article-title span {
+  color: var(--special-color);
+}
+
+.article-content {
+  padding: 22px 37px;
+}
+
+.article-content h3 {
+  margin-bottom: 18px;
+}
+
+.article-content p {
+  margin-bottom: 36px;
+}
+
+.article-hooker {
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.article-thumbnail {
+  background-color: var(--special-color);
+  padding: 25px 90px;
+}
+
+.article-thumbnail img {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.50);
+}
