@@ -42,3 +42,10 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+h1 {
+  background-color: #E7E7DB;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 10px;
+}
