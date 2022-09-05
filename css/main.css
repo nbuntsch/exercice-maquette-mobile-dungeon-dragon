@@ -115,6 +115,7 @@ figure {
 footer {
   background-image: url(../images/background.png);
   background-repeat: no-repeat, repeat;
+  background-size: contain;
   height: 308px;
   color: white;
 }
