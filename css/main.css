@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --main-color: #172632;
   --accent-color: #df0000;
 }
 
@@ -25,6 +26,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  color: var(--main-color);
   max-width: 415px;
   margin: auto;
   font-size: 1rem;
@@ -64,7 +66,7 @@ img.dnd-logo {
 }
 
 .title h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   border-bottom: solid 1px #df0000;
@@ -73,4 +75,25 @@ img.dnd-logo {
 
 h1 span {
   color: var(--accent-color);
+}
+
+p.introduction {
+  font-size: 21px;
+  line-height: 24px;
+  padding: 22px 0px;
+}
+
+.paragraph h2 {
+  font-weight: 700;
+  padding: 22px 37px 22px 37px;
+}
+
+.paragraph p {
+  line-height: 19px;
+  padding: 0px 37px 18px 37px;
+}
+
+figure {
+  background-color: var(--accent-color);
+  padding: 25px 90px;
 }
