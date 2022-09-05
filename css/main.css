@@ -42,3 +42,107 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #172632;
+}
+
+body {
+  max-width: 414px;
+}
+
+.logo {
+  padding: 14px 98px;
+  background-color: #e7e7db;
+}
+
+.monster {
+  border-top: solid 3px red;
+  border-bottom: solid 3px red;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 25px 76px;
+  border-bottom: solid 1px red;
+  line-height: 1.2em;
+}
+
+span {
+  color: #df0000;
+}
+
+.description {
+  font-size: 21px;
+  padding: 22px 37px 38px;
+}
+
+article p {
+  padding: 0 38px 36px;
+}
+
+.first-paragraph {
+  padding: 0 38px 15px;
+}
+
+h2 {
+  padding-bottom: 12px;
+  font-weight: 700;
+}
+
+.cover {
+  box-shadow: 0px 10px 20px black;
+}
+
+.cover-background {
+  background-color: #df0000;
+  padding: 25px 90px;
+  margin-bottom: 22px;
+}
+
+h3 {
+  padding: 20px 37px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background: #df0000;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 7px 12px;
+  box-shadow: 0 2px 4px black;
+}
+
+footer {
+  margin-top: 60px;
+  background-image: url(../_consigne/images/background.png);
+  background-repeat: no-repeat;
+  padding: 22px 37px 38px;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.link {
+  color: #df0000;
+}
