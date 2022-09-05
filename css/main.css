@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --accent-color: #df0000;
 }
 
 /* ====================================
@@ -26,6 +27,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: center;
 }
 
 a {
@@ -47,4 +49,13 @@ video {
 
 header {
   background: #e7e7db;
+}
+
+img.dnd-logo {
+  padding: 14px 0px 12px 0px;
+}
+
+.border-img {
+  border-top: #df0000 solid 3px;
+  border-bottom: #df0000 solid 3px;
 }
