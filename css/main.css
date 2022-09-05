@@ -111,3 +111,32 @@ figure {
   padding: 8px 0px;
   margin: 22px 0px 60px 0px;
 }
+
+footer {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat, repeat;
+  height: 308px;
+  color: white;
+}
+
+footer h3 {
+  padding: 22px 0px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--accent-color);
+  margin-bottom: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  line-height: 19px;
+}
+
+.credits {
+  font-size: 12px;
+  line-height: 14px;
+}
