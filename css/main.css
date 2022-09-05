@@ -25,9 +25,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  max-width: 415px;
+  margin: auto;
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
+  font-family: "roboto";
 }
 
 a {
@@ -58,4 +61,16 @@ img.dnd-logo {
 .border-img {
   border-top: #df0000 solid 3px;
   border-bottom: #df0000 solid 3px;
+}
+
+.title h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  border-bottom: solid 1px #df0000;
+  padding: 25px 0 22px 0;
+}
+
+h1 span {
+  color: var(--accent-color);
 }
