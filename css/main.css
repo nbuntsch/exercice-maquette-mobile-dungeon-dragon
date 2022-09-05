@@ -70,7 +70,7 @@ h1 {
   font-weight: 700;
   padding: 25px 76px;
   border-bottom: solid 1px red;
-  line-height: 1.2em;
+  line-height: 1.1em;
 }
 
 span {
@@ -82,27 +82,31 @@ span {
   padding: 22px 37px 38px;
 }
 
+p {
+  line-height: 1.2em;
+}
 article p {
-  padding: 0 38px 36px;
+  padding: 0 38px 30px;
 }
 
 .first-paragraph {
-  padding: 0 38px 15px;
+  padding: 0 38px 20px;
 }
 
 h2 {
-  padding-bottom: 12px;
+  padding-bottom: 17px;
   font-weight: 700;
+  font-size: 21px;
 }
 
 .cover {
-  box-shadow: 0px 10px 20px black;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.61);
 }
 
 .cover-background {
   background-color: #df0000;
   padding: 25px 90px;
-  margin-bottom: 22px;
+  margin-top: 10px;
 }
 
 h3 {
@@ -122,7 +126,7 @@ a {
   font-size: 18px;
   color: #ffffff;
   padding: 7px 12px;
-  box-shadow: 0 2px 4px black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.61);
 }
 
 footer {
