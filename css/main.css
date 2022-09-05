@@ -65,7 +65,7 @@ img.dnd-logo {
   border-bottom: #df0000 solid 3px;
 }
 
-.title h1 {
+.title h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -73,17 +73,17 @@ img.dnd-logo {
   padding: 25px 0 22px 0;
 }
 
-h1 span {
+h2 span {
   color: var(--accent-color);
 }
 
 p.introduction {
   font-size: 21px;
   line-height: 24px;
-  padding: 22px 0px;
+  padding: 22px 37px;
 }
 
-.paragraph h2 {
+.paragraph h3 {
   font-weight: 700;
   padding: 22px 37px 22px 37px;
 }
@@ -96,4 +96,18 @@ p.introduction {
 figure {
   background-color: var(--accent-color);
   padding: 25px 90px;
+}
+
+.button {
+  width: 132px;
+  display: inline-block;
+  background: var(--accent-color);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0px 2px 4px #0000007f;
+  padding: 8px 0px;
+  margin: 22px 0px 60px 0px;
 }
