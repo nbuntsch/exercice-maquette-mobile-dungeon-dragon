@@ -1,0 +1,11 @@
+.button-article {
+  background-color: var(--special-color);
+  color: var(--color-main);
+  padding: 7px 12px; 
+  font-size: 18px;
+  border-radius: 8px;
+  background: #DF0000;
+  font-weight: 700;
+  box-shadow: 0 2px 4px #00000088;
+  font-family: var(--font-main);
+}

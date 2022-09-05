@@ -1,0 +1,18 @@
+.prime-header {
+  padding: 15px 0 10px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(20px);
+  z-index: 1000;
+  box-shadow: 0 0 10px #00000088;
+}
+
+header,
+.prime-header {
+  border-bottom: solid var(--special-color) 3px;
+}
+
+header img {
+  display: block;
+  margin: auto;
+}
