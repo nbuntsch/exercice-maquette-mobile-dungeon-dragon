@@ -55,7 +55,6 @@ html {
 
 .logo {
   background-color: #E7E7DB;
-  border-bottom: 3px solid #DF0000;
 }
 
 .logo img {
@@ -64,6 +63,8 @@ html {
 
 .main-img {
   border-bottom: 3px solid #DF0000;
+  border-top: 3px solid #DF0000
+
 }
 
 h2 {
