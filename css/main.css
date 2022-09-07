@@ -26,6 +26,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  width: 450px;
+  padding-left: 20%;
 }
 
 a {
@@ -38,7 +40,15 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
-
-/* ====================================
-// base rules
-// ==================================== */
+.logo {
+  text-align: center;
+  padding: 15px 25px;
+  background-color: #e7e7db;
+}
+h1 {
+  font-family: Roboto-Bold;
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 20px;
+  line-height: 2rem;
+}
