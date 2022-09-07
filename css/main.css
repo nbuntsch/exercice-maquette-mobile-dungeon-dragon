@@ -26,6 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -37,6 +38,33 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
+}
+
+header .logo {
+  padding: 14px 98px;
+  background-color: #e7e7db;
+}
+
+header .poster {
+  border-bottom: 3px solid #df0000;
+  border-top: 3px solid #df0000;
+}
+
+header .text-red {
+  color: #df0000;
+  padding-bottom: 10px;
+}
+
+header .text-black {
+  padding-top: 10px;
+}
+
+.main-header-title {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #df0000;
 }
 
 /* ====================================
