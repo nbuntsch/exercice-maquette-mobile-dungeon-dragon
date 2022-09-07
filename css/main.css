@@ -60,7 +60,8 @@ h1 {
 h2 {
   font-family: Roboto-Bold;
   font-size: 21px;
-  margin: 12px;
+  margin: 12px 15px;
+  padding: 20px 15px 5px;
 }
 p {
   font-family: Roboto-Regular;
