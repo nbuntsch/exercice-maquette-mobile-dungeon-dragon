@@ -142,3 +142,27 @@ button {
 }
 
 footer {
+  background-image: url(../images/background.png);
+  
+  padding: 10px 0 55px;
+}
+
+footer h3 {
+  color: #fff;
+  margin: 20px 0;
+}
+
+ul {
+  color: #DF0000;
+  margin-bottom: 50px;
+  line-height: 1.2;
+  list-style-type: none;
+}
+
+h4, a {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  }
