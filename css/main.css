@@ -42,3 +42,128 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  margin: auto;
+  max-width: 414px;
+}
+
+body {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+h1 {
+  background-color: #E7E7DB;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 10px;
+}
+
+.promo-art {
+  border-top: solid #DF0000 3px;
+  border-bottom: solid #DF0000 3px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.dd-starter {
+  margin-top: 20px;
+  color: #DF0000;
+}
+
+hr {
+  border: 0.5px solid #DF0000;
+  margin: 25px 0;
+}
+
+.intro-envy {
+  font-size: 21px;
+  color: #172632;
+  margin: 0 10px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 21px;
+  color: #172632;
+  margin: 50px 0 25px;
+}
+
+.series-resume {
+  margin: 0 18px;
+}
+
+.series-infos {
+  margin: 20px 18px;
+}
+
+.game-rules {
+  margin: 0 40px;
+  font-size: 16px;
+  color: #172632;
+}
+
+.prod-st-cover {
+  background-color: #DF0000;
+  padding: 0 0 30px;
+  margin: 30px 0 0;
+}
+
+.game-cover-image {
+  box-shadow: -0.1em 0 1em #172632;
+}
+
+.st-and-dd {
+  margin: 30px 0;
+}
+
+.dnd-starterset {
+  margin: 0 18px;
+}
+
+.game-objects {
+  margin: 15px 18px 20px;
+}
+
+button {
+  color: #fff;
+  background-color: #DF0000;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-bottom: 60px;
+  box-shadow: 0 1px 5px #172632;
+}
+
+footer {
+  background-image: url(../images/background.png);
+  
+  padding: 10px 0 55px;
+}
+
+footer h3 {
+  color: #fff;
+  margin: 20px 0;
+}
+
+ul {
+  color: #DF0000;
+  margin-bottom: 50px;
+  line-height: 1.2;
+  list-style-type: none;
+}
+
+h4, a {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  }
