@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  user-zoom: black;
 }
 
 /* ====================================
@@ -17,6 +18,12 @@
 
 html {
   font-size: 16px;
+  max-width: 414px;
+  display: block;
+  scroll-behavior: smooth;
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -25,7 +32,6 @@ body {
   text-rendering: optimizeLegibility;
 
   font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 a {
@@ -42,3 +48,34 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  text-align: center;
+}
+
+.logo {
+  background-color: #E7E7DB;
+  border-bottom: 3px solid #DF0000;
+}
+
+.logo img {
+  padding: 14px 0;
+}
+
+.main-img {
+  border-bottom: 3px solid #DF0000;
+}
+
+h2 {
+  border-bottom: 1px solid #DF0000;
+  font-weight: 700;
+  font-size: 36px;
+  color: #172632;
+  padding: 25px 75px;
+  line-height: 42px;
+}
+
+h2 span {
+  color: #DF0000;
+}
+
