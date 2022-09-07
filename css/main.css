@@ -47,3 +47,11 @@ h1 {
   padding: 13px 98px 13px 98px;
   background-color: #e7e7db;
 }
+
+hr {
+  border: #df0000 solid 1px;
+}
+
+hr.big {
+  border: #df0000 solid 3px;
+}
