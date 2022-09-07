@@ -43,6 +43,16 @@ video {
 // base rules
 // ==================================== */
 
+html {
+  margin: auto;
+  max-width: 414px;
+}
+
+body {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
 h1 {
   background-color: #E7E7DB;
   display: flex;
