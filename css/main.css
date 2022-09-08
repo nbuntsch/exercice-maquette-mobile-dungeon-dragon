@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  user-zoom: black;
 }
 
 /* ====================================
@@ -17,6 +18,12 @@
 
 html {
   font-size: 16px;
+  max-width: 414px;
+  display: block;
+  scroll-behavior: smooth;
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -25,7 +32,6 @@ body {
   text-rendering: optimizeLegibility;
 
   font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 a {
@@ -42,3 +48,106 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  text-align: center;
+  color: #172632;
+}
+
+.logo {
+  background-color: #E7E7DB;
+}
+
+.logo img {
+  padding: 14px 0;
+}
+
+.main-img {
+  border-bottom: 3px solid #DF0000;
+  border-top: 3px solid #DF0000
+
+}
+
+h2 {
+  border-bottom: 1px solid #DF0000;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 25px 75px;
+  line-height: 42px;
+}
+
+h2 span {
+  color: #DF0000;
+}
+
+main p {
+  padding: 12px 37px 10px;
+}
+
+.introduction, 
+h3 {
+  font-size: 21px;
+}
+
+h3 {
+  padding-top: 38px;
+}
+
+.cover {
+  background-color: #DF0000;
+  padding: 25px 0;
+  margin-top: 20px;
+}
+
+.cover img {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.50);
+}
+
+.demo {
+  font-size: 18px;
+  padding: 22px 0 8px;
+}
+
+.last-paragraph {
+  padding-bottom: 30px;
+}
+
+
+main a {
+  background-color: #DF0000;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 6px 12px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+footer {
+  background-image: url(../_consigne/images/background.png);
+  background-color: #0B0B0B;
+  color: #DF0000;
+  margin-top: 60px;
+  height: 290px;
+}
+
+.title-footer {
+  font-size: 18px;
+  color: white;
+  padding: 22px 0;
+}
+
+.sources {
+  color: white;
+  font-size: 12px;
+}
+
+p.sources {
+  padding-top: 30px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
