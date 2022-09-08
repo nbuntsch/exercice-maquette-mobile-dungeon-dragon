@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -37,8 +34,45 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  max-width: 414px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+h1 {
+  background-color: #e7e7db;
+  border-bottom: 3px solid #df0000;
+}
+
+.logo {
+  width: 219px;
+  margin: 0 98px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+}
+
+span {
+  color: red;
+}
+
+.starter-set h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 42px;
+  padding-left: 75px;
+  padding-top: 25px;
+  padding-bottom: 22px;
+  border-top: 3px solid #df0000;
+  border-bottom: 1px solid #df0000;
+}
+
+/* font-family: 'Roboto', sans-serif; */
