@@ -53,3 +53,20 @@ header {
   align-items: center;
   text-align: center;
 }
+
+h1 {
+  background-color: #e7e7db;
+}
+
+header p {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 42px;
+  border-bottom: solid 1px red;
+  border-top: solid 3px red;
+  padding: 25px 75px;
+}
+
+.important-stuff {
+  color: red;
+}
