@@ -51,6 +51,7 @@ video {
 
 html {
   text-align: center;
+  color: #172632;
 }
 
 .logo {
@@ -71,12 +72,50 @@ h2 {
   border-bottom: 1px solid #DF0000;
   font-weight: 700;
   font-size: 36px;
-  color: #172632;
   padding: 25px 75px;
   line-height: 42px;
 }
 
 h2 span {
   color: #DF0000;
+}
+
+main p {
+  padding: 12px 37px 10px;
+}
+
+.introduction, 
+h3 {
+  font-size: 21px;
+}
+
+h3 {
+  padding-top: 38px;
+}
+
+.cover {
+  background-color: #DF0000;
+  padding: 25px 0;
+  margin-top: 20px;
+}
+
+.cover img {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.50);
+}
+
+.demo {
+  font-size: 18px;
+  padding: 22px 0 8px;
+}
+
+main a {
+  background-color: #DF0000;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 6px 12px;
+  box-shadow: 0 4px 2px 0 rgba(0,0,0,0.50);
 }
 
