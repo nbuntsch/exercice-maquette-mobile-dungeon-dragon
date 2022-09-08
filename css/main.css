@@ -45,6 +45,10 @@ video {
 // base rules
 // ==================================== */
 
+body {
+  max-width: 415px;
+}
+
 h1 {
   background-color: #e7e7db;
   padding: 14px 98px 12px 98px;
@@ -80,6 +84,45 @@ header {
 }
 
 main {
-  padding: 22px 37px 60px 37px;
+  padding: 20px 0 60px 0;
   text-align: center;
+  line-height: 19px;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  padding: 0 37px 0 37px;
+}
+
+main p {
+  margin-bottom: 36px;
+  padding: 0 37px 0 37px;
+}
+
+.cover {
+  background-color: #df0000;
+  margin-bottom: 22px;
+  padding: 25px 89px 25px 90px;
+}
+
+.cover img {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  background-color: #df0000;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 7px 12px 6px 12px;
+  width: 133px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin: 22px 141px 0px 141px;
+}
+
+.button a {
+  text-decoration: none;
 }
