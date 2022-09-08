@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -37,8 +38,122 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+h1 {
+  padding: 13px 98px 13px 98px;
+  background-color: #e7e7db;
+}
+
+hr {
+  border: #df0000 solid 1px;
+}
+
+hr.big {
+  border: #df0000 solid 3px;
+}
+
+h2 span {
+  color: #df0000;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 25px 75px 22px 75px;
+  line-height: 42px;
+  font-size: bold;
+}
+
+.hat {
+  margin: 22px 37px 38px 37px;
+  font-size: 21px;
+  text-align: center;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 12px;
+  margin: 0 37px 12px;
+}
+
+p {
+  margin: 0 37px 0 37px;
+  text-align: center;
+  line-height: 19px;
+}
+
+.about-the-series {
+  margin-bottom: 36px;
+}
+
+.play-the-game {
+  margin-bottom: 14px;
+}
+
+.starter-set {
+  margin-bottom: 22px;
+}
+
+.starter-set-img {
+  background-color: #df0000;
+  padding: 25px 90px;
+  margin-bottom: 22px;
+}
+
+.starter-set-img img {
+  box-shadow: #00000050 0 10px 20px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button p {
+  background-color: #df0000;
+  display: inline-block;
+  padding: 7px 12px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: #00000050 0 2px 4px;
+  margin-bottom: 60px;
+}
+
+footer {
+  background-image: url(../_consigne/images/background.png);
+  color: white;
+  padding: 22px 0 52px 0;
+}
+
+.title-footer {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 37px 19px 37px;
+}
+
+.sources {
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 52px 37px 0 37px;
+}
+
+footer ul {
+  color: #df0000;
+  text-align: center;
+  line-height: 19px;
+}
+
+footer ul a {
+  text-decoration: none;
+}
