@@ -37,8 +37,32 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+h1 {
+  background-color: #e7e7db;
+  padding: 14px 98px 12px 98px;
+}
+
+header img {
+  border-bottom: solid 3px #df0000;
+  border-top: solid 3px #df0000;
+}
+
+h1 img {
+  border: none;
+}
+
+h2 {
+  font-size: 36px;
+  padding: 25px 76px 22px 75px;
+}
+
+span {
+  color: #df0000;
+}
