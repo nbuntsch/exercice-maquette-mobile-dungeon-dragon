@@ -89,3 +89,47 @@ hr {
 .small-line {
   border-top: 1px solid #DF0000;
 }
+
+/* main */
+
+.intro p {
+  font-size: 21px;
+}
+
+.intro {
+  margin: 22px 37px 38px 37px;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 36px;
+}
+
+.text p {
+  margin-left: 37px;
+  margin-right: 37px;
+  line-height: 19px;
+}
+
+/* main img */
+
+.prod {
+  background: #DF0000;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 28px;
+}
+
+.prod img {
+  display: inline;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.50);
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 22px 37px 20px 37px;
+}
