@@ -2,8 +2,8 @@
 // css variables
 // ==================================== */
 
-:root {
-}
+/* :root {
+} */
 
 /* ====================================
 // reset rules
@@ -37,8 +37,55 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #172632;
+}
+
+body {
+  width: 415px;
+  margin: auto;
+}
+
+/* header */
+
+.logo {
+  background: #E7E7DB;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 12px;
+}
+
+.logo img {
+  display: inline;
+}
+
+hr {
+  border-top: 3px solid #DF0000;
+}
+
+.red {
+  color: #DF0000;
+  height: 42px;
+}
+
+.title {
+  margin-top: 25px;
+  padding-bottom: 22px;
+}
+
+.title h1 {
+  font-size: 36px;
+}
+
+.small-line {
+  border-top: 1px solid #DF0000;
+}
