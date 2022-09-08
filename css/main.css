@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 // ==================================== */
 
 :root {
-  --main-color: #000;
+  --main-color: #172632;
   --secondary-color: #df0000;
   --third-color: #fff;
   --main-background-color: #fff;
@@ -41,6 +41,7 @@ body {
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.5rem;
+  color: var(--main-color);
 }
 
 a {
@@ -78,7 +79,11 @@ a {
 }
 
 .margin-container {
-  margin: 0 37px;
+  margin: 22px 37px;
+}
+
+p {
+  line-height: 1.2;
 }
 
 /* header ↓ */
@@ -120,6 +125,7 @@ span {
 
 h3 {
   font-size: 18px;
+  margin: 38px 0 12px;
 }
 
 /* footer ↓ */
@@ -128,6 +134,7 @@ footer {
   background-image: url(../img/background.png);
   color: var(--third-color);
   line-height: 1;
+  padding: 10px 38px 20px;
 }
 
 footer a {
@@ -140,8 +147,15 @@ footer a {
 
 .sources {
   font-size: 12px;
+  padding: 43px 37px 18px;
 }
 
 h4 {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+footer p {
+  font-size: 12px;
   font-weight: normal;
 }
