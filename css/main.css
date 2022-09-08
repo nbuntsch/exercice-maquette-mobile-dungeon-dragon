@@ -110,10 +110,20 @@ span {
   color: var(--secondary-color);
 }
 
+h1 {
+  padding: 10px;
+}
+
 /* main ↓ */
 
 .container-img {
   background-color: var(--secondary-background-color);
+  padding: 25px 90px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 38px 0 12px;
 }
 
 .button {
@@ -121,11 +131,14 @@ span {
   color: var(--third-color);
   font-weight: bold;
   font-size: 18px;
+  box-shadow: 0 2px 4px #00000080;
+  border-radius: 8px;
+  margin: 22px 141px 60px;
+  padding: 6px;
 }
 
-h3 {
-  font-size: 18px;
-  margin: 38px 0 12px;
+.container-img img {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* footer ↓ */
