@@ -108,6 +108,11 @@ h3 {
   padding: 22px 0 8px;
 }
 
+.last-paragraph {
+  padding-bottom: 30px;
+}
+
+
 main a {
   background-color: #DF0000;
   color: white;
@@ -116,6 +121,29 @@ main a {
   font-weight: 700;
   text-decoration: none;
   padding: 6px 12px;
-  box-shadow: 0 4px 2px 0 rgba(0,0,0,0.50);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+footer {
+  background-image: url(../_consigne/images/background.png);
+  background-color: #0B0B0B;
+  color: #DF0000;
+  margin-top: 60px;
+  height: 290px;
+}
+
+.title-footer {
+  font-size: 18px;
+  color: white;
+  padding: 22px 0;
+}
+
+.sources {
+  color: white;
+  font-size: 12px;
+}
+
+p.sources {
+  padding-top: 30px;
 }
 
