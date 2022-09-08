@@ -1,8 +1,21 @@
+/*  fonts ↓
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
 /* ====================================
 // css variables
 // ==================================== */
 
 :root {
+  --main-color: #172632;
+  --secondary-color: #df0000;
+  --third-color: #fff;
+  --main-background-color: #fff;
+  --secondary-background-color: #df0000;
+  --thrid--background-color: #e7e7db;
+  --main-font: "Roboto", sans-serif;
 }
 
 /* ====================================
@@ -17,15 +30,18 @@
 
 html {
   font-size: 16px;
+  max-width: 415px;
+  margin: auto;
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.5rem;
+  color: var(--main-color);
 }
 
 a {
@@ -36,9 +52,123 @@ img,
 video {
   max-inline-size: 100%;
   block-size: auto;
-  vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+/* base ↓ */
+
+body {
+  text-align: center;
+  font-family: var(--main-font);
+}
+
+img {
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin-container {
+  margin: 22px 37px;
+}
+
+p {
+  line-height: 1.2;
+}
+
+/* header ↓ */
+
+.container-logo {
+  background-color: var(--thrid--background-color);
+}
+
+.header-img {
+  border-top: solid var(--secondary-background-color) 3px;
+  border-bottom: solid var(--secondary-background-color) 3px;
+}
+
+header {
+  border-bottom: solid var(--secondary-background-color) 1px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+h1 {
+  padding: 10px;
+}
+
+/* main ↓ */
+
+.container-img {
+  background-color: var(--secondary-background-color);
+  padding: 25px 90px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 38px 0 12px;
+}
+
+.button {
+  background-color: var(--secondary-background-color);
+  color: var(--third-color);
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 2px 4px #00000080;
+  border-radius: 8px;
+  margin: 22px 141px 60px;
+  padding: 6px;
+}
+
+.container-img img {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* footer ↓ */
+
+footer {
+  background-image: url(../img/background.png);
+  color: var(--third-color);
+  line-height: 1;
+  padding: 10px 38px 20px;
+}
+
+footer a {
+  color: var(--secondary-color);
+}
+
+.sources a {
+  color: var(--third-color);
+}
+
+.sources {
+  font-size: 12px;
+  padding: 43px 37px 18px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: normal;
+}
