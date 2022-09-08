@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -54,4 +55,15 @@ hr {
 
 hr.big {
   border: #df0000 solid 3px;
+}
+
+h2 span {
+  color: #df0000;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 25px 75px 22px 75px;
+  line-height: 42px;
+  font-size: bold;
 }
