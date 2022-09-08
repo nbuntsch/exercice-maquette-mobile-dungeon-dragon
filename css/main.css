@@ -110,9 +110,18 @@ p {
 
 .book {
   background-color: #df0000;
-  padding: 25px 90px;
+  padding: 20px 90px 0 90px;
+  margin-bottom: 22px;
 }
 
 .book img {
   width: 235px;
+}
+
+.info-book h3 {
+  font-size: 18px;
+}
+
+.info-book p {
+  padding-bottom: 22px;
 }
