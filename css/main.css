@@ -38,6 +38,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
@@ -72,4 +73,28 @@ h2 {
   margin: 22px 37px 38px 37px;
   font-size: 21px;
   text-align: center;
+}
+
+h3 {
+  font-size: 21px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+p {
+  margin: 0 37px 0 37px;
+  text-align: center;
+  line-height: 19px;
+}
+
+.about-the-series {
+  margin-bottom: 36px;
+}
+
+.play-the-game {
+  margin-bottom: 14px;
+}
+
+.starter-set {
+  margin-bottom: 22px;
 }
