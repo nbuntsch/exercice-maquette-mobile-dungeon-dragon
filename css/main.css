@@ -62,8 +62,14 @@ h1 img {
 h2 {
   font-size: 36px;
   padding: 25px 76px 22px 75px;
+  font-weight: 700;
+  line-height: 42px;
 }
 
 span {
   color: #df0000;
+}
+
+header {
+  border-bottom: solid 1px #df0000;
 }
