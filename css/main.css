@@ -73,6 +73,7 @@ main {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .intro {
@@ -118,4 +119,19 @@ article,
   text-align: center;
   padding: 7px 12px;
   margin-top: 22px;
+}
+
+footer {
+  background-image: url(/_consigne/images/background.png);
+  width: 414px;
+  color: white;
+  padding: 22px 0 32px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+footer div {
+  margin-bottom: 35px;
 }
