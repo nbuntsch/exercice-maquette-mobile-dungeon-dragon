@@ -73,3 +73,13 @@ span {
 header {
   border-bottom: solid 1px #df0000;
 }
+
+.introduction {
+  font-size: 21px;
+  margin-bottom: 38px;
+}
+
+main {
+  padding: 22px 37px 60px 37px;
+  text-align: center;
+}
