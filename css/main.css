@@ -127,3 +127,33 @@ p {
   box-shadow: #00000050 0 2px 4px;
   margin-bottom: 60px;
 }
+
+footer {
+  background-image: url(../_consigne/images/background.png);
+  color: white;
+  padding: 22px 0 52px 0;
+}
+
+.title-footer {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 37px 19px 37px;
+}
+
+.sources {
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 52px 37px 0 37px;
+}
+
+footer ul {
+  color: #df0000;
+  text-align: center;
+  line-height: 19px;
+}
+
+footer ul a {
+  text-decoration: none;
+}
