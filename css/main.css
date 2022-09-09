@@ -133,3 +133,49 @@ h3 {
   font-weight: bold;
   margin: 22px 37px 20px 37px;
 }
+
+/* bouton */
+
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 22px 141px 60px 141px;
+  background: #DF0000;
+  border-radius: 8px;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.button p {
+  padding: 7px 12px 6px 12px;
+}
+
+/* footer */
+
+footer {
+  background-image: url("../img/background.png");
+  background-size: 100%;
+  padding-top: 22px;
+}
+
+footer h3 {
+  color: white;
+}
+
+.section {
+  color: #DF0000;
+  line-height: 19px;
+  padding-bottom: 52px;
+}
+
+.link {
+  color: white;
+  line-height: 14px;
+  font-size: 12px;
+  padding-bottom: 52px;
+}
+
+.link a {
+  text-decoration: none;
+}
