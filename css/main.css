@@ -2,8 +2,8 @@
 // css variables
 // ==================================== */
 
-:root {
-}
+/* :root {
+} */
 
 /* ====================================
 // reset rules
@@ -37,8 +37,146 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #172632;
+}
+
+body {
+  width: 415px;
+  margin: auto;
+}
+
+/* header */
+
+.logo {
+  background: #E7E7DB;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 12px;
+}
+
+.logo img {
+  display: inline;
+}
+
+hr {
+  border-top: 3px solid #DF0000;
+}
+
+.red {
+  color: #DF0000;
+  height: 42px;
+}
+
+.title {
+  margin-top: 25px;
+  padding-bottom: 22px;
+}
+
+.title h1 {
+  font-size: 36px;
+}
+
+.small-line {
+  border-top: 1px solid #DF0000;
+}
+
+/* main */
+
+.intro p {
+  font-size: 21px;
+}
+
+.intro {
+  margin: 22px 37px 38px 37px;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 36px;
+}
+
+.text p {
+  margin-left: 37px;
+  margin-right: 37px;
+  line-height: 19px;
+}
+
+/* main img */
+
+.prod {
+  background: #DF0000;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 28px;
+}
+
+.prod img {
+  display: inline;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.50);
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 22px 37px 20px 37px;
+}
+
+/* bouton */
+
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 22px 141px 60px 141px;
+  background: #DF0000;
+  border-radius: 8px;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+.button p {
+  padding: 7px 12px 6px 12px;
+}
+
+/* footer */
+
+footer {
+  background-image: url("../img/background.png");
+  background-size: 100%;
+  padding-top: 22px;
+}
+
+footer h3 {
+  color: white;
+}
+
+.section {
+  color: #DF0000;
+  line-height: 19px;
+  padding-bottom: 52px;
+}
+
+.link {
+  color: white;
+  line-height: 14px;
+  font-size: 12px;
+  padding-bottom: 52px;
+}
+
+.link a {
+  text-decoration: none;
+}
