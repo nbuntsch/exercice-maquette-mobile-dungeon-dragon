@@ -108,9 +108,12 @@ section p {
   color: white;
   background: #df0000;
   padding: 7px 13px;
-  margin-bottom: 60px;
   font-size: 18px;
   border-radius: 8px;
+}
+
+footer {
+  background-image: url(_consigne/images/background.png);
 }
 
 /* ====================================
