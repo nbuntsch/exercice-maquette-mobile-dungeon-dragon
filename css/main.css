@@ -139,4 +139,42 @@ a {
   color: #ffffff;
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
+}
+
+.find {
+  color: #df0000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+footer div {
+  text-align: center;
+  padding-bottom: 52px;
+}
+
+footer h3 {
+  color: #ffffff;
+  align-items: center;
+  padding: 22px 0;
+  font-size: 18px;
+}
+
+footer {
+  background-image: url(../img/footer-background.webp);
+}
+
+footer p {
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 52px;
+  font-size: 12px;
+  line-height: 14px;
+  padding-bottom: 0;
+}
+
+.website {
+  font-size: 12px;
+  line-height: 14px;
 }
