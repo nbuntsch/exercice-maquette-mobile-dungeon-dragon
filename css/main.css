@@ -113,7 +113,34 @@ section p {
 }
 
 footer {
-  background-image: url(_consigne/images/background.png);
+  background-image: url(../_consigne/images/background.png);
+  background-size: 347px;
+  text-align: center;
+  padding: 22px 0 38px 0;
+  margin-top: 60px;
+}
+
+footer .mini-title {
+  color: white;
+}
+
+.mini-title-footer {
+  color: white;
+  margin-bottom: 19px;
+}
+
+.text-list {
+  text-align: center;
+  color: #df0000;
+}
+
+.footer-end {
+  font-size: 12px;
+}
+
+.footer-end a {
+  text-decoration: none;
+  color: white;
 }
 
 /* ====================================
