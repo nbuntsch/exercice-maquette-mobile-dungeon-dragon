@@ -26,6 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -37,6 +38,109 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
+}
+
+header .logo {
+  padding: 14px 98px;
+  background-color: #e7e7db;
+}
+
+header .poster {
+  border-bottom: 3px solid #df0000;
+  border-top: 3px solid #df0000;
+}
+
+header .text-red {
+  color: #df0000;
+  padding-bottom: 10px;
+}
+
+header .text-black {
+  padding-top: 10px;
+}
+
+.main-header-title {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #df0000;
+}
+
+main {
+  color: #172632;
+  text-align: center;
+}
+
+main .small-text {
+  margin: 22px 28px 18px 28px;
+  font-size: 21px;
+}
+
+section p {
+  font-size: 16px;
+  margin: 12px 28px 30px 28px;
+  line-height: 19px;
+}
+
+.mini-title {
+  text-align: center;
+  margin-top: 36px;
+}
+
+.prod {
+  background: #df0000;
+  padding: 25px 0;
+  margin-top: 14px;
+}
+
+.prod img {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.small-title {
+  margin: 22px 38px 0 38px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background: #df0000;
+  padding: 7px 13px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+footer {
+  background-image: url(../_consigne/images/background.png);
+  background-size: 347px;
+  text-align: center;
+  padding: 22px 0 38px 0;
+  margin-top: 60px;
+}
+
+footer .mini-title {
+  color: white;
+}
+
+.mini-title-footer {
+  color: white;
+  margin-bottom: 19px;
+}
+
+.text-list {
+  text-align: center;
+  color: #df0000;
+}
+
+.footer-end {
+  font-size: 12px;
+}
+
+.footer-end a {
+  text-decoration: none;
+  color: white;
 }
 
 /* ====================================
